@@ -1,0 +1,94 @@
+body 
+{
+   background-color:#001657; 
+   color:#efefef;
+   font-family:"Nunito",Verdana,Arial,Helvetica,sans-serif;
+   font-size:small;
+   margin:2em 1%;/*choisit la taille de la marge, c'est a dire l'espace autour des éléments*/
+   padding:0;/*choisit la taille de l'espace autour de l'élément, a l'interieur de bordures définies*/
+}
+
+#page/*indique que ce qui est entre les {} s'applique a la section <div id="page">*/
+{
+   /*color:#000000; /*met le texte en noir*/
+   /*background-color:#ffffff;/*met le fond en blanc*/
+   /*border:3px solid #000000;/*met la bordure en noir*/
+   min-height:55em; /*définit la taille minimale d'un élément*/
+   height:55em; /*définit la taille d'un élément*/
+}
+
+html>body #page/*indique où s'applique ce qui suit entre {}*/
+{
+   height:auto;/*définit la taille d'un élément, auto ajuste la taille pour pouvoir voir tout le contenu*/
+}
+header
+{
+	margin:2em 3% 1% 3%;/*définit l'espace autour du titre */
+	padding:0.05em 0 0.5em 0;/*ajoute de l'espace au dessus et en dessous du header*/
+	font-size:200%;/*définit la taille de texte du header*/
+	/*background-color:#ffd000;/*définit la couleur du fond du header en jaune*/
+	/*border-radius:25px;/*arrondit les coins de la bordure de header*/
+}
+header h1
+{
+	font-family:"Lobster",Arial, Helvetica,sans-serif;
+    color:#cc3363;
+	text-align:center;/*centre le texte du h1 du header*/
+}
+header .logo 
+{
+	float:left; /*positionne le logo à gauche du bandeau*/ 
+	margin-top:20px; /*ajoute une marge de 20px au dessus du logo*/
+	margin-bottom:5px;/*ajoute une marge de 5px en dessous du logo*/
+	margin-left:1%; /* ajoute une marge à gauche du logo*/
+	display:block;/*affiche le logo comme un bloc: commence une nouvelle ligne et prend de la largeur*/
+}
+nav
+{
+	left:5%;/*définit la position du bloc sur la gauche*/
+	position:absolute;/*positionne le bloc sans laisser d'espace vide*/
+	width:15%;/*définit la largeur du bloc par rapport à la largeur de la page*/
+	overflow:hidden;/*si le contunu du bloc est plus grand que le bloc, la partie qui dépasse est cachée*/
+}
+article
+{
+	/*background-color:#f5f8fc;/*définit la couleur du fond du bloc article*/
+	/*border:1px solid #6090c0;/*définit la taille, le style et la couleur de la bordure */
+	line-height: 150%;/*définit la hauteur des lignes par rapport à la taille du texte*/
+	margin:0 3% 2em 21%;/*définit la taille de la marge en haut, à droite, en bes et à gauche du bloc article*/
+	padding: 0 2% 3em 2%;/*ajoute de l'espace autour du bloc article*/
+	/*color:#000000;/*définit la couleur du texte*/
+}
+h3
+{
+	border-color:#f9a039;
+	border-style:solid;
+	border-width:0 0 3px 0;/*défint la largeur de la bordure à 3px sous les titres et à zéro pour le reste*/
+	font-size:medium;/*définit la taille de la police des titres*/
+	font-weight:bold;/*définit l'épaisseur des traits de l'écriture, ici en gras*/
+	margin:0;/*n'ajoute pas de marge autour des titres*/
+	padding-left:0em;/*n'ajoute pas d'espace à gauche*/
+	text-transform:uppercase;/*met le texte en majuscules*/
+}
+ul
+{
+	/*margin-bottom:1.5em;/*définit la marge sous les blocs*/
+	/*margin-top:0.5em;/*définit la marge au dessus des blocs*/
+}
+li
+{
+	/*list-style:none;/*enlève les puces de la liste*/
+}
+article h2
+{
+	border-color:#f9a039;/*définit la couleur de la bordure*/
+	border-style:solid;/*définit le style de la bordure comme étant plein*/
+	border-width:0 0 3px 0;/*défint la largeur de la bordure à 3px sous le titre et à zéro pour le reste*/
+	color:#cc3363;/*définit la couleur du titre*/
+	text-transform:uppercase;/*met le titre en majuscules*/
+}
+nav a
+{
+	/*display:block;/*affiche l’élément comme un élément  bloc*/
+	color:#f9a039;/*définit la couleur des liens*/
+}
